@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+    
+}
+
+.main-header{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    /* border-bottom: 1px solid #ccc; */
+    background-color: #c4c3bd;
+}
+
+.logo img {
+    max-width: 150px; /* Adjust the max-width as needed */
+    height: auto;
+}
+
+.navbar {
+    margin-left: auto;
+}
+
+.navbar a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: #fffbfb;
+}
+
+/* Change link color on hover */
+.navbar a:hover {
+    color: #a78849; /* Change to your desired hover color */
+}
+
+/* Highlight current page link */
+
+
+
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section1, .section2 {
+    margin-bottom: 40px;
+}
+
+.footer {
+    background-color: #bc6666;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.second-header {
+    display: none;
+    background-color:#dad9d2;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    padding-right: 40px ;
+    height: 50px;
+}
+.second-header .navbar {
+    font-size: 18px;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 20px;
+    justify-content: right;
+}
+.second-header.active {
+    display: block;
+}
+
+
+.vertical-icon-bar {
+    position: fixed;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    z-index: 999;
+}
+
+.vertical-icon-bar a {
+    color: #a86565;
+    text-decoration: none;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.vertical-icon-bar a:hover{
+    color: #e2c07c; /* Change to your desired hover color */
+}

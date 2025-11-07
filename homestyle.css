@@ -1,0 +1,383 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: #ecece6;
+}
+
+.main-header {
+    position: relative; /* Add this line */
+    background-image: url('34.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.second-header {
+    display: none;
+    background-color:#dad9d2;
+    color:#ffffff;
+    text-align:center;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    height: 50px;
+}
+
+.second-header .navbar {
+    font-size: 18px;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 20px;
+
+    justify-content: center;
+}
+
+.logo img {
+    max-width: 20%;
+    height: auto;
+}
+/* Add this CSS to position the navbar in the top right corner of the header */
+.navbar {
+    font-size: 18px;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 20px; /* Adjust the top position to your desired value */
+    right: 20px; /* Adjust the right position to your desired value */
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.navbar a:hover {
+    color:#a78849;
+}
+
+.vertical-icon-bar {
+    position: fixed;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.vertical-icon-bar a {
+    color: rgb(240, 140, 16);
+    text-decoration: none;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.vertical-icon-bar a:hover{
+    color: #e2c07c; /* Change to your desired hover color */
+}
+
+/* Add a class for active links in the navbar */
+/* .navbar a.active {
+    font-weight: bold;
+    background-color: transparent; /* Set to match the background color */
+
+/*} */
+.section-content {
+    text-align: center;
+}
+
+.section-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section-content p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+    
+}
+
+.description {
+    width: 50%; /* Adjust the width as needed */
+    position: relative;
+}
+.slideshow-container {
+    width: 800px; /* Set the width as needed */
+    height: 500px; /* Set the height as needed */
+    position: relative;
+    overflow: hidden;
+    margin-right: 5%; /* Add some margin if needed */
+    margin-top: 3%; /* Add some margin if needed */
+
+}
+
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    height: 100%;
+}
+/* 
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+} */
+
+/* .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+} */
+
+/* .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+} */
+
+/* .dot-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+} */
+
+/* .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+} */
+
+.active {
+    background-color: #d1abab;
+}
+
+
+/* .black-box {
+    position: relative;
+    border: 2px solid black;
+    height: 100px;
+    width: 400px;
+    margin: 60px;
+    margin-top: 300px;
+
+  } */
+
+  .section-title {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f9f9f9;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.section-title1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color:  #a78849;
+}
+
+.description {
+    /* Add your other styles here */
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #737373;
+}
+.slide-caption {
+    position: absolute;
+    bottom: 20px; /* Adjust the distance from the bottom as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the background color and opacity */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+
+/* Add this CSS to your existing style.css file or wherever you manage your styles */
+.new-section {
+    background-image: linear-gradient(to left, #ecece6, #ffffff);
+    padding: 60px 0;
+    text-align: center;
+}
+
+.button3 {
+    background-color: #f3f1ee;
+    border: 2px solid #FF9800;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #737373;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 660px;
+}
+
+.button3:hover {
+    background-color: #FFC107;
+}
+
+
+.left-side1, .right-side1 {
+    flex: 1;
+}
+
+.left-side1 {
+    text-align: center;
+    float: left;
+}
+
+.right-side1 {
+    text-align: center;
+    float: right;
+    
+
+    
+}
+.section-title2{
+    margin-left: 100px;
+    font-family: Arial, sans-serif;
+    font-size: 38px;
+color:  #a78849;
+
+
+}
+.button-description {
+    margin-top: -160px;
+    margin-right: 40px;
+    margin-left: 730px;
+    font-size: 18px;
+    color: #737373;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.clear {
+    clear: both;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.custom-section {
+    /* background-color: #f9f9f9; */
+    padding: 60px 0;
+    text-align: center;
+    height: 500px;
+}
+
+.left-side-image-custom, .right-side-content-custom {
+    flex: 1;
+}
+
+.left-side-image-custom {
+    text-align: center;
+    float: left;
+    width: 50%; /* Adjust the width as needed */
+    height: 20%;
+    padding-left: 60px;
+
+}
+
+.right-side-content-custom {
+        background-color: #f9f9f9;
+    text-align: center;
+    float: right;
+    max-width: 45%; /* Adjust the width as needed */
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    height: 250px;
+    margin-right: -20px;
+    
+    
+
+
+}
+
+.section-title-custom {
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color:  #a78849;
+}
+
+.description-custom {
+    /* Add your other styles here */
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+    font-family: Arial, sans-serif;
+
+}
+
+.button-description-custom {
+    font-size: 18px;
+    color: #737373;
+    font-family: 'Montserrat', sans-serif;
+
+    
+    
+}
+.button-custom {
+    background-color: #f3f1ee;
+    border: 2px solid #FF9800;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #737373;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-custom:hover {
+    background-color: #FFC107;
+}
+
+.right-side-content-custom .button-custom {
+    margin-top: 10px;
+}

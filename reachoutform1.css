@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ecece6;
+    margin: 0;
+    /* padding: 20px; */
+    margin: 8px;
+}
+/* #p1{
+font-size: 30px;
+    padding-left: 20px; 
+    padding-top: 60px; 
+
+} */
+.pre-form {
+    background-color: #ecece6;
+    padding: 20px;
+    text-align: center;
+    text-decoration-color: #737373;
+}
+form {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+legend {
+    display: block;
+    padding-left: 2px;
+    padding-right: 2px;
+    border: none;
+    font-size: 20px;
+    
+  }
+
+  .page-title {
+    text-align: center;
+    margin: 20px auto;
+    background-color: #f9f9f9; /* Add your desired background color here */
+    padding: 20px; /* Add padding for spacing */
+    height: 120px;
+    justify-content:center;
+    font-size: 30px;
+    color:  #a78849;
+    
+}
+
+/* header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 50px;
+    color: white; */
+   
+  /* }  */
+
+  .additional-options {
+    margin-left: 20px; /* Add some indentation to sub-options */
+}
+
+label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    width: 140px; /* Set a fixed width for labels */
+}
+#service  {
+    width: 350px; /* Adjust the width to your preference */
+}
+
+input {
+    /* width: 100%; */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: inline-block;
+    width: 300px; /*Adjust the width to your preference */
+
+}
+
+/* select {
+    width: 15px; Adjust the width to your preference
+} */
+
+
+/* input[type="date"] { */
+    /* Additional styling for date input, if needed */
+/* } */
+
+input[type="radio"] {
+    margin-right: 0px; /* Adjust the right margin to increase or decrease space */
+    width: 30px; /*Adjust the width to your preference */
+
+}
+
+/* Add specific styles for radio buttons inside the additional-options div */
+.additional-options input[type="radio"] {
+    margin-right: 10px; /* Adjust the right margin to increase or decrease space */
+    width: 30px; /*Adjust the width to your preference */
+
+}    
+
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* styles.css */
+/* select, input { */
+/* display: inline-block; */
+/* margin-bottom: 10px; Add some spacing between elements */
+/* } */
+
+#authorize{
+    margin-right: 10px; /* Adjust the right margin to increase or decrease space */
+    width: 30px; /*Adjust the width to your preference */
+
+}
+.pre-form h2, .post-form h2 {
+    color: #2F4F4F;
+}
+.contact-info {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.social-links, .contact-details {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li, .contact-details li {
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #007bff;
+    margin-right: 10px;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+.contact-details i {
+    margin-right: 10px;
+}
